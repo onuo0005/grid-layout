@@ -1,0 +1,108 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.k {
+  margin: 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.k div:nth-child(2) {
+  margin-top: 2rem;
+}
+
+.k div:last-child {
+  margin-top: 2rem;
+}
+
+.img-1 {
+  display: block;
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .k div:nth-child(2) {
+    padding-right: 2rem;
+    margin-top: 1rem;
+  }
+
+  .k div:last-child {
+    padding-left: 2rem;
+    margin-top: 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .k div:first-child {
+    padding-right: 4rem;
+  }
+
+  .k div:nth-child(2) {
+    padding-right: 2rem;
+    margin-top: 0;
+  }
+
+  .k div:last-child {
+    padding-left: 4rem;
+    margin-top: 0;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .k div:nth-child(2) {
+    padding: 0 1.5rem;
+    margin-top: 0;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .k div:first-child {
+    padding-right: 3.5rem;
+  }
+
+  .k div:nth-child(2) {
+    margin-top: 0;
+  }
+
+  .k div:last-child {
+    padding-left: 3.5rem;
+    margin-top: 0;
+  }
+
+}
